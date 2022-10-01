@@ -19,9 +19,9 @@ function startGame() {
     iframe.setAttribute("src", newIframeSrc);
 
     // Hide play button, show iframe and end game button
-    iframe.style.display = "block";
+    iframe.style.display = "initial";
     document.getElementById("startGame").style.display = "none";
-    document.getElementById("endGame").style.display = "block";
+    document.getElementById("endGame").style.display = "initial";
 }
 
 function getData(id) {
@@ -33,7 +33,7 @@ function endGame() {
     // Hide iframe and end game button, show play button
     document.getElementById("endGame").style.display = "none";
     document.getElementById("gameIframe").style.display = "none";
-    document.getElementById("startGame").style.display = "block";
+    document.getElementById("startGame").style.display = "initial";
 
     document.getElementById("gameIframe").setAttribute("src")
 }

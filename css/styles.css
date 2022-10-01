@@ -20,11 +20,8 @@ div {
     font-size: 20px;
     background-color: black;
     margin-bottom: 100px;
-}
-
-.main-container-learning {
-    background-color: black;
-    margin-bottom: 100px;
+    width: 75%;
+    padding: 20px 20px 30px 20px;
 }
 
 .display-none {
@@ -32,8 +29,27 @@ div {
 }
 
 .my-card {
-    margin-left: 8em;
     height: 200px;
+    margin: 20px 12% 50px 12%;
+}
+
+.pick-date {
+    padding: 10px 20px 30px 20px;
+}
+
+.pick-date input {
+    background-color: #212020;
+    border: none;
+    color: white;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.button-container button {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .my-nav {
@@ -66,4 +82,17 @@ div {
 
 #myNavLearning {
     background-image: url("../resources/img/learning.jpg");
+}
+
+@media only screen and (max-width: 1000px) {
+    .my-nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-nav {
+        width: 302px;
+        height: 302px;
+        align-self: center;
+    }
 }
