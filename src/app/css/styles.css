@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../resources/img/background.jpg");
+}
+
+div {
+    color: deeppink;
+}
+
+.main-container {
+    height: 1000px;
+    background-color: black;
+    margin-bottom: 100px;
+}
