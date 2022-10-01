@@ -16,6 +16,10 @@ div {
     color: deeppink;
 }
 
+.my-heading {
+    font-size: 50px;
+}
+
 .main-container {
     font-size: 20px;
     background-color: black;
@@ -33,6 +37,11 @@ div {
     margin: 20px 12% 50px 12%;
 }
 
+.my-card h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .pick-date {
     padding: 10px 20px 30px 20px;
 }
@@ -47,8 +56,13 @@ div {
     filter: invert(1);
 }
 
+.pick-date-container > span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .button-container button {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 

@@ -13,22 +13,28 @@
 </head>
 <body class="text-white bg-dark">
 
-    <h1 class="text-center font-weight-bold">Solar Wind Cars</h1>
+    <h1 class="text-center font-weight-bold my-heading">Solar Wind Cars</h1>
 
     <div class="container border border-light main-container">
         <a href="index.html">Back</a>
 
         <div class="d-flex justify-content-center">
-            <div class="pick-date">
-                <span>Choose first date:</span>
-                <input type="date" id="date1" aria-label="date1"
-                       value="2022-09-01" min="2022-09-01" max="2022-09-31">
+            <div class="d-flex flex-column pick-date-container">
+                <span class="text-center">Player 1</span>
+                <div class="pick-date">
+                    <span>Choose first date:</span>
+                    <input type="date" id="date1" aria-label="date1"
+                           value="2022-09-01" min="2022-09-01" max="2022-09-31">
+                </div>
             </div>
 
-            <div class="pick-date">
-                <span>Choose second date:</span>
-                <input type="date" id="date2" aria-label="date2"
-                       value="2022-09-02" min="2022-09-01" max="2022-09-31">
+            <div class="d-flex flex-column pick-date-container">
+                <span class="text-center">Player 2</span>
+                <div class="pick-date">
+                    <span>Choose second date:</span>
+                    <input type="date" id="date2" aria-label="date2"
+                           value="2022-09-02" min="2022-09-01" max="2022-09-31">
+                </div>
             </div>
         </div>
 
