@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Barlow;
+    src: url('../resources/fonts/Barlow-Regular.ttf');
+}
+
+* {
+    font-family: Barlow, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../resources/img/background.jpg");
+}
+
+div {
+    color: deeppink;
+}
+
+.main-container {
+    font-size: 20px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.main-container-learning {
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.display-none {
+    display: none;
+}
+
+.my-card {
+    margin-left: 8em;
+    height: 200px;
+}
+
+.my-nav {
+    /*padding: 10%;*/
+    margin: 30px 40px;
+}
+
+.my-nav a {
+    color: deeppink;
+    cursor: pointer;
+}
+
+.my-nav:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}

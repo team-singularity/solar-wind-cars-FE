@@ -11,19 +11,13 @@
 
     <script type="text/javascript" src="js/main.js"></script>
 
-<!--    <script src="TemplateData/UnityProgress.js"></script>-->
-<!--    <script src="Build/UnityLoader.js"></script>-->
-<!--    <script src="../resources/UnityBuild/Build/Build.loader.js"></script>-->
-<!--    <script>-->
-<!--        var unityInstance = UnityLoader.instantiate("gameContainer", "Build/index.json", {onProgress: UnityProgress});-->
-<!--    </script>-->
-
     <title>Hello, world!</title>
 </head>
-<body class="text-white bg-dark">
+<body class="text-white bg-dark" onload="hideGameComponents()">
 <h1 class="text-center bg-dark">Solar Wind Cars</h1>
 
 <div class="container border border-light w-75 p-3 main-container">
+    <a href="index.html">Back</a>
     <div class="pick-date">
         <span>Choose first date:</span>
         <input type="date" id="date1" aria-label="date1"
@@ -36,14 +30,14 @@
                value="2022-09-02" min="2022-09-01" max="2022-09-31">
     </div>
 
-    <button type="button" class="btn btn-primary" onclick="postData()">Play</button>
+    <button type="button" class="btn btn-primary" id="startGame" onclick="startGame()">Play Game</button>
+    <button type="button" class="btn btn-secondary display-none" id="endGame" onclick="endGame()">End Game</button>
 
-    <div class="gameContainer border border-warning">
-        <iframe src="../resources/UnityBuild/index.html"
-                height="800" width="1000" style="border:none"
-                title="Solar Wind Cars Iframe"
-                id="gameIframe"></iframe>
-    </div>
+    <iframe class="border border-warning display-none"
+            src="resources/UnityBuild/index.html"
+            height="800" width="1000" style="border:none"
+            title="Solar Wind Cars Iframe"
+            id="gameIframe"></iframe>
 </div>
 
 
