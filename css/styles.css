@@ -147,7 +147,7 @@ h1 {
 }
 
 #stars {
-    position: absolute;
+    position: fixed;
 }
 
 .canvas-space-game {
