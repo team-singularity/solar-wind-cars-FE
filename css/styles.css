@@ -12,8 +12,16 @@ body {
     background-image: url("../resources/img/background.jpg");
 }
 
-div {
+.title {
+    font-size: 22px;
+}
+
+.pink {
     color: deeppink;
+}
+
+.blue {
+    color: royalblue;
 }
 
 .my-heading {
@@ -67,7 +75,7 @@ div {
 }
 
 .my-nav {
-    margin: 30px 40px;
+    margin: 10px 40px;
 }
 
 .my-nav a {
