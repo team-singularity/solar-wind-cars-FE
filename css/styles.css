@@ -16,6 +16,10 @@ body {
     font-size: 22px;
 }
 
+#stars {
+    z-index: -1000;
+}
+
 a {
     color: deeppink;
 }
