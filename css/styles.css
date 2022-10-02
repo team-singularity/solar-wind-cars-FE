@@ -12,8 +12,16 @@ body {
     background-image: url("../resources/img/background.jpg");
 }
 
-div {
+.title {
+    font-size: 22px;
+}
+
+.pink {
     color: deeppink;
+}
+
+.blue {
+    color: royalblue;
 }
 
 .my-heading {
