@@ -39,8 +39,16 @@ h1 {
     z-index: 1000;
 }
 
+.lightpink {
+    color: #b73cd2;
+}
+
 .blue {
     color: royalblue;
+}
+
+.info {
+    font-size: 18px;
 }
 
 .my-heading {
