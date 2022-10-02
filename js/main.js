@@ -1,6 +1,6 @@
-function hideGameComponents() {
-    document.getElementById("endGame").style.display = "none";
-    document.getElementById("gameIframe").style.display = "none";
+function loadDatePicker() {
+    date1.max = new Date().toISOString().split("T")[0];
+    date2.max = new Date().toISOString().split("T")[0];
 }
 
 function startGame() {
@@ -35,5 +35,5 @@ function endGame() {
     document.getElementById("gameIframe").style.display = "none";
     document.getElementById("startGame").style.display = "initial";
 
-    document.getElementById("gameIframe").setAttribute("src")
+    document.getElementById("gameIframe").setAttribute("src", "https://team-singularity.github.io/solarwindcars-unity.github.io/")
 }
